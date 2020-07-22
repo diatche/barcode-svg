@@ -1,4 +1,4 @@
-# barcode-gen
+# barcode-svg
 
 A Node.js utility program for generating an SVG barcode. Uses [JsBarcode](https://github.com/lindell/JsBarcode).
 
@@ -28,7 +28,7 @@ SUFFIX=">"
 PATH="<destination-path>"
 ```
 
-*The default destination directory is the project root.*
+*The default destination directory is the project root and the filename is a combination of the code and format.*
 
 Then run:
 
