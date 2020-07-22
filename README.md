@@ -22,7 +22,7 @@ Add an `.env.local` file with:
 
 ```bash
 FORMAT="ean13"
-CODE="12345678912"
+CODE="123456789123"
 # Optional
 SUFFIX=">"
 PATH="<destination-path>"
@@ -39,10 +39,14 @@ yarn start
 Alternatively, you can use the following in bash:
 
 ```bash
-FORMAT="ean13"; CODE="12345678912"; yarn start
+FORMAT="ean13"; CODE="123456789123"; yarn start
 ```
 
 A similar method can be used for other CLIs.
+
+### Result:
+
+![Result SVG](./examples/123456789123-ean13.svg)
 
 ### Note:
 

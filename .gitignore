@@ -259,6 +259,7 @@ temp/
 *.jpeg
 *.html
 *.xml
+!examples/*.svg
 
 # Use yarn
 package-lock.json
