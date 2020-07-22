@@ -39,10 +39,10 @@ yarn start
 Alternatively, you can use the following in bash:
 
 ```bash
-FORMAT="ean13"; CODE="123456789123"; yarn start
+FORMAT="ean13"; CODE="123456789123"; SUFFIX=">"; yarn start
 ```
 
-A similar method can be used for other CLIs.
+A similar method can be used for other CLIs. You can also mix and match the above methods to set your own defaults.
 
 ### Result:
 
